@@ -1,0 +1,29 @@
+﻿__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 权重与数据：本仓永不提交
+data/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.json.gz
+
+# 音频
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# 日志与缓存
+logs/
+*.log
+.cache/
+hf_cache/
