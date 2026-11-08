@@ -1,6 +1,6 @@
 # dafeiyu-svc-train
 
-**造数据 + 训练**那一半。推理与权重在隔壁 **[`dafeiyu-svc`](https://github.com/<you>/dafeiyu-svc)**（MIT）。
+**造数据 + 训练**那一半。推理与权重在隔壁 **[`dafeiyu-svc`](https://github.com/wu-hupy/dafeiyu-svc)**（MIT）。
 
 > 为什么拆两个仓：造数据要 import **Seed-VC（GPL-3.0）**，一旦合并，推理仓也会被传染成 GPL，
 > 别人就不能在闭源项目里依赖它了。拆开以后：推理仓 MIT、本仓 GPL-3.0，谁要哪一半拿哪一半。
