@@ -1,5 +1,10 @@
 # dafeiyu-svc-train
 
+[![license: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.10%2B-informational.svg)](requirements.txt)
+
+仓库：<https://github.com/wu-hupy/dafeiyu-svc-train> · 推理与权重：<https://github.com/wu-hupy/dafeiyu-svc>（MIT）
+
 **造数据 + 训练**那一半。推理与权重在隔壁 **[`dafeiyu-svc`](https://github.com/wu-hupy/dafeiyu-svc)**（MIT）。
 
 > 为什么拆两个仓：造数据要 import **Seed-VC（GPL-3.0）**，一旦合并，推理仓也会被传染成 GPL，
